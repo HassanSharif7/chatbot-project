@@ -1,9 +1,10 @@
-fastapi>=0.100.0
-uvicorn[standard]>=0.20.0
-pydantic>=2.0.0
-pymongo>=4.0.0
-langchain-core>=1.2.0
-langchain-google-genai>=4.0.0
-langchain>=1.0.0
-langgraph>=1.0.0
-python-dotenv>=1.0.0
+# Flexible version requirements to avoid dependency conflicts
+fastapi
+uvicorn[standard]
+pydantic
+pymongo
+langchain-core
+langchain-google-genai
+langchain
+langgraph
+python-dotenv
